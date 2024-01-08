@@ -86,6 +86,13 @@ strong {
 	font-weight: 700;
 }
 
+.new-item {
+    padding:5px;
+	font-size:20px;
+	background-color:#ffc800;
+	color:#000000;
+}
+
 .margint1 { margin-top: 10px; }
 .margint2 { margin-top: 20px; }
 .margint3 { margin-top: 30px; }
