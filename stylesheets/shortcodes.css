@@ -154,6 +154,10 @@
 	content: "\f040";
 }
 
+.roll-infomation li.delivery:before {
+	content: "\f0d1";
+}
+
 .roll-infomation li.time:before {
 	content: "\f017";
 }
