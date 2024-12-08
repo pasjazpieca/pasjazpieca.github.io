@@ -765,10 +765,9 @@ input[type="color"],
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	gap: 10px;
 	padding: 0;
-	width: 100%;
 }
 
 .contact-slider-inner span {
