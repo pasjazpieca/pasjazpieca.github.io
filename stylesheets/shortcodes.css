@@ -136,6 +136,7 @@
 .roll-infomation li.address:before,
 .roll-infomation li.phone:before,
 .roll-infomation li.email:before,
+.roll-infomation li.delivery:before,
 .roll-infomation li.time:before {
 	position: absolute;
 	left: 0;
