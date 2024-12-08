@@ -762,12 +762,18 @@ input[type="color"],
 }
 
 .contact-slider-inner {
-	padding: 0 	;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 0;
 }
 
 .contact-slider-inner span {
 	position: relative;
 	padding: 0 70px 0 75px;
+	white-space: normal;
 }
 
 .contact-slider-inner span.address {
@@ -784,15 +790,15 @@ input[type="color"],
 }
 
 .contact-slider-inner span.serve:before {
-content: "\f017";
+	content: "\f017";
 }
 
 .contact-slider-inner span.phone:before {
-	content: "\f095";		
+	content: "\f095";
 }
 
 .contact-slider-inner span.address:before {
-	content: "\f041";	
+	content: "\f041";
 }
 
 .contact-slider-inner span.delivery:before {
@@ -800,18 +806,27 @@ content: "\f017";
 }
 
 .contact-slider-inner span:after {
-    background-color: #d91d1d;
-    content: "";
-    height: 35px;
-    left: -10px;
-    position: absolute;
-    top: -8px;
-    width: 1px;
+	background-color: #d91d1d;
+	content: "";
+	height: 35px;
+	left: -10px;
+	position: absolute;
+	top: -8px;
+	width: 1px;
 }
 
 .contact-slider-inner span:first-child:after {
-	width: 0;
+	width: 0; /* Remove separator for the first span */
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+	.contact-slider-inner span {
+		padding: 0 20px; /* Reduce padding on smaller screens */
+		font-size: 16px; /* Adjust font size */
+	}
+}
+
 
 /* Page Title
 -------------------------------------------------------------- */
