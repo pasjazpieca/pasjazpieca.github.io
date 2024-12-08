@@ -795,6 +795,10 @@ content: "\f017";
 	content: "\f041";	
 }
 
+.contact-slider-inner span.delivery:before {
+	content: "\f0d1";
+}
+
 .contact-slider-inner span:after {
     background-color: #d91d1d;
     content: "";
