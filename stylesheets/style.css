@@ -803,6 +803,13 @@ input[type="color"],
 
 .contact-slider-inner span.delivery:before {
 	content: "\f0d1";
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.contact-slider-inner span.delivery:after {
+	height: 100%;
+	top: 0;
 }
 
 .contact-slider-inner span:after {
